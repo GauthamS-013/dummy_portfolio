@@ -1,0 +1,91 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Kode Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.header > img {
+  width: 200px;
+}
+.link {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  transition: font-size 400ms;
+}
+.link:hover{
+    font-size: 50px;
+    color: rgb(214, 41, 107);
+}
+.linkGrp{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
+.intro{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 30px;
+  margin-top: 50px;
+}
+.intro>img{
+  height: 500px;
+  margin: 0px auto 0px auto;
+}
+.introduce>h1{
+  font-size: 40px;
+}
+.introduce>div{
+  margin-top: 40px;
+  text-align: justify;
+}
+.introduce>a{
+  text-decoration: none;
+  margin-top: 30px;
+  display: inline-block;
+  background-color: rgb(235, 12, 82);
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  transition: padding 200ms;
+}
+.introduce>a:hover{
+  background-color: rgb(226, 63, 115);
+  padding: 18px;
+}
+.about{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 30px;
+  margin-top: 20px;
+}
+.about>img{
+  height: 550px;
+  margin: 0px auto 0px auto;
+}
+.about>div{
+  margin-top: 50px;
+}
+.content>h2{
+  color: rgb(235, 12, 82);
+  font-weight: bolder;
+}
+.content>p{
+  margin-top: 30px;
+  text-align: justify;
+}
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  display: none;
+}
